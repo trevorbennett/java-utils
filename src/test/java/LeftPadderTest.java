@@ -12,4 +12,11 @@ public class LeftPadderTest {
         assertEquals("00000000000012345",output);
     }
 
+    @Test
+    public void testFixedStringPadding(){
+        LeftPadder padder = new LeftPadder();
+        String output = padder.padFixedString("12345");
+        assertEquals("00000000000012345",output);
+    }
+
 }
