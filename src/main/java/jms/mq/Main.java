@@ -1,4 +1,4 @@
-Package jms.mq;
+package jms.mq;
 
 public class Main {
 
